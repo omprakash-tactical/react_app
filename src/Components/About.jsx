@@ -1,5 +1,6 @@
 import React,{useEffect} from "react";
 import Header from "../Layout/Header";
+import Footer from "../Layout/Footer";
 
 function About() {
   useEffect(() => {
@@ -779,7 +780,9 @@ function About() {
           </p>
 
           <p>Sincerely, [Your Name or Company Name]</p>
+
         </div>
+        <Footer></Footer>
       </div>
     </>
   );

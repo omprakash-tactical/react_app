@@ -1,8 +1,8 @@
 import React from "react";
+import Footer from "../Layout/Footer";
 import Header from "../Layout/Header";
-import MyImage from "../images/bbbb.jpg";
-import MyPdf from "../images/aaaaaa.pdf";
-import { Document, Page } from "react-pdf";
+import ImageSlider from './ImageSlider';
+import { SliderData } from './SliderData';
 
 function Home() {
   return (
@@ -25,14 +25,9 @@ function Home() {
         </div>
       </div>
       <Header></Header>
-      <div style={{ textAlign: "center" }}> </div>
-      <div className="p-1 mb-1 bg-danger text-black">
-        <img
-          src={MyImage}
-          alt="Description of the image"
-          style={{ width: "100%", height: "800px" }}
-        />        
-      </div>
+      <ImageSlider slides={SliderData} />  
+      <Footer></Footer>  
+      
     </>
   );
 }
