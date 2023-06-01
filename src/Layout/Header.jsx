@@ -5,6 +5,7 @@ function Header() {
   const navigate = useNavigate();
   return (
     <>
+     <div className="p-1 mb-1 bg-info text-white">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="/" alt="">
@@ -22,6 +23,11 @@ function Header() {
               <li className="nav-item">
                 <li className="nav-link" onClick={() => navigate("/about")}>
                   About
+                </li>
+              </li>
+              <li className="nav-item">
+                <li className="nav-link" onClick={() => navigate("/school")}>
+                  School-app
                 </li>
               </li>
               <li className="nav-item">
@@ -74,6 +80,7 @@ function Header() {
           </div>
         </div>
       </nav>
+      </div>
     </>
   );
 }

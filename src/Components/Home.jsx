@@ -9,16 +9,16 @@ function Home() {
   return (
     <>
       <Header></Header>
-      <div style={{ textAlign: "center" }}>HOME</div>
+      <div style={{ textAlign: "center" }}> </div>
+      <div className="p-1 mb-1 bg-danger text-black">      
       <img
         src={MyImage}
         alt="Description of the image"
-        style={{ width: "1900px", height: "500px" }}
+        style={{ width: "100%", height: "800px" }}
       />
-      <div>
-       
-
+      {/* <div>
         <iframe src={MyPdf} width="100%" height="10000"/>
+      </div> */}
       </div>
     </>
   );
