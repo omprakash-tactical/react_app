@@ -1,9 +1,24 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Header from "../Layout/Header";
 
 function About() {
+  useEffect(() => {
+    window.addEventListener("scroll", isSticky);
+    return () => {
+      window.removeEventListener("scroll", isSticky);
+    };
+  });
+
+  const isSticky = (e) => {
+    const header = document.querySelector(".header-section");
+    const scrollTop = window.scrollY;
+    scrollTop >= 250
+      ? header.classList.add("is-sticky")
+      : header.classList.remove("is-sticky");
+  };
   return (
-    <>      
+    <>   
+    <Header></Header>   
       <div className="container">
         <div className="card p-3">
           <p>
