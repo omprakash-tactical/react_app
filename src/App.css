@@ -134,3 +134,28 @@
     border-radius: 46px;
     width: 10%;
 }
+.login_container {
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.loginsubmit{
+  font-size: 18px;
+  padding: 10px 30px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  text-decoration: none!important;
+  outline: none!important;
+  display: inline-block;
+  background: #0070bb;
+  border: 1px solid hsla(0,0%,100%,.25);
+  box-sizing:content-box;
+  border-radius: 20px;
+}
