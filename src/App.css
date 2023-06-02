@@ -1,3 +1,6 @@
+.grad{
+  background-image: linear-gradient(rgb(255, 128, 0), #ffffff, rgb(0, 128, 4));
+}
 .school_logo {
   font-size: 50px;
   color: #263f62;
@@ -6,11 +9,12 @@
   line-height: normal;
   font-family: "Rubik",sans-serif ;
   text-shadow: 4px 4px;
+ 
 }
 
 .school_affilation{
   font-size: 18px;
-  color: rgb(40, 101, 216);
+  color: rgb(40, 102, 216);
   font-weight: 600;
   letter-spacing: normal;
   line-height: normal;
@@ -32,7 +36,7 @@
 }
 .header_shadow{
   box-shadow: 0px 15px 10px -10px lightgray; 
-  background-color: #263f62;
+  background-color: #3d5f8f;
 
 }
 .nav_color{
@@ -101,4 +105,16 @@
   opacity: 1;
   transition-duration: 1s;
   transform: scale(1.08);
+}
+.footer-bg{
+  background-color:#3d5f8f !important;
+}
+.vision{
+  background-color: #bcc5b6;
+  background-image: linear-gradient(rgb(230, 217, 221), #ffffff, rgb(128, 151, 129)); 
+  
+}
+.allignment-about{
+ text-align: center;
+ color: hwb(0 0% 100%);
 }
