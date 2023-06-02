@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
+
 function Header() {
   const navigate = useNavigate();
   return (
@@ -25,7 +26,7 @@ function Header() {
                 >
                   ABOUT US
                 </li>
-                <li
+                {/* <li
                   className="nav-link nav_color"
                   onClick={() => navigate("/about")}
                 >
@@ -60,7 +61,7 @@ function Header() {
                   onClick={() => navigate("/about")}
                 >
                   MEDIA
-                </li>
+                </li> */}
 
                 {/* <li className="nav-item data_link">
                   <a
@@ -112,7 +113,9 @@ function Header() {
                     </li>
                   </ul>
                 </li> */}
+                
               </ul>
+              <button className="login-button"onClick={() => navigate("/login")} >Login</button>
             </div>
           </div>
         </nav>

@@ -5,6 +5,8 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import School from "./Components/School";
 import College from "./Components/College";
+import Login from "./pages/Login";
+
 
 function App() {
   return (
@@ -14,7 +16,8 @@ function App() {
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/school" element={<School/>}/>
-      <Route path="/college" element={<College/>}/>       
+      <Route path="/college" element={<College/>}/>  
+      <Route path="/login" element={<Login/>}/>      
       </Routes>
     </BrowserRouter>
   );

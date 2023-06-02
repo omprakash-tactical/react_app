@@ -39,7 +39,8 @@ function Home() {
         </div>
       </div>
       <Header></Header>
-      <ImageSlider slides={SliderData} />  
+      <div className='col-12' ><ImageSlider slides={SliderData} /></div>
+        
       <Footer></Footer>  
       
     </>
